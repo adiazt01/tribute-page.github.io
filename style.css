@@ -83,13 +83,16 @@ hr{
 /* img netter */
 
 .img-container{
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 .img-netter{
-    width: 250px;
+    width: 80%;
+    height: auto;
+    max-width: 100%;
     margin: auto;
 }
 
