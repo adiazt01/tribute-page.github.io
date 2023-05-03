@@ -1,4 +1,118 @@
 *{
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Container main */
+
+.container-bio{
+    padding: 10px 20px 25px;
+}
+
+/* navbar */
+.navbar{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;    
+    top: 0;
+    position: sticky;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, .3);
+}
+
+/* navbar link */
+
+.navbar-link-container{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.navbar-link-container > li{
+    padding: 10px;
+}
+
+.navbar-link-container > li > a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* navbar title */
+
+.title-container{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* container */
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* title2 */
+.container-title2{
+    margin-bottom: 10px;
+}
+
+.title2{
+    text-align: center;
+}
+
+/* img netter */
+
+.img-container{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+.img-netter{
+    width: 250px;
+    margin: auto;
+}
+
+/* Container info */
+
+.container-info{
+    margin-top: 10px;
+}
+
+p{
+    text-indent: 0.5cm;
+    text-align: justify;
+}
+
+hr{
+    text-indent: 0.5cm;
+}
+
+/* rewards */
+
+.rewards-container{
+    list-style: none;
+    justify-content: center;
+    align-items: center;text-align: center;
+    margin-top: 10px;
 }
